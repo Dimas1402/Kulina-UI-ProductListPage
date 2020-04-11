@@ -1,0 +1,14 @@
+{
+    "btn":[
+        {
+            "id":1,
+            "name":"Lunch",
+            "class":"btn-active"
+        },
+        {
+            "id":2,
+            "name":"Dinner",
+            "class":"btn-disable"
+        }
+    ]
+}

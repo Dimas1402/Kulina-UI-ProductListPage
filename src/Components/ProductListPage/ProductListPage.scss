@@ -1,0 +1,14 @@
+.container{
+    margin-top: 110px;
+    .text-tgl{
+        font-size: 16px;
+        font-weight:bold;
+        margin-bottom: -15px;
+    }
+}
+
+@media only screen and(max-width:768px){
+    .container{
+
+    }
+}

@@ -1,0 +1,95 @@
+.box-nav{
+    position:fixed;
+     background:white;
+      width:100%;
+     z-index:99;
+     top: 0;
+     -webkit-box-shadow: -1px 4px 14px -6px rgba(10, 31, 68, 0.1);
+-moz-box-shadow: -1px 4px 14px -6px rgba(10, 31, 68, 0.1);
+box-shadow: -1px 4px 14px -6px rgba(10, 31, 68, 0.1);
+}
+.navbar{
+    .text-address{
+        font-size:8px;
+        position: absolute;
+        left: 60px;
+        margin-top:-20px ;
+        color: #424749;
+    }
+    .text-place{
+        font-size: 16px;
+        position: absolute;
+        left: 60px;
+        margin-top:-10px ;
+        font-weight: 600;
+        color: #424749;
+        cursor:pointer;
+    }
+
+  
+}
+
+.collapse-day{
+    .card-body{
+        background: none;
+        border: none;
+    }
+    .scrollmenu{
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling:touch;
+        .box-text{
+            display: inline-block;
+            .card-body{
+                padding: 0 !important;
+            }
+           .card-text{
+               border: none;
+               text-align: center;
+               width: 50px;
+               height: 50px;
+               color: #424749;
+               transition: 0.5s;
+               cursor: pointer;
+               &:hover{
+                background: #424749;
+                border-radius: 50%;
+                color: white;
+               }
+               .text-hari{
+                margin-top: 10px;
+               
+                text-align: center;
+                font-size: 8px;
+                text-decoration: none;
+                text-align: center;
+                
+            }
+            .text-tgl{
+                margin-top: -40px;
+                font-size:16px;
+                font-weight: 600;
+              
+            }
+              
+           }
+        }
+           
+    }
+}
+
+#style-1::-webkit-scrollbar {
+    width: 10px;
+  }
+#style-1::-webkit-scrollbar-track {
+    width: 6px;
+    
+    background-color: #ffffff;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background: rgb(253, 252, 252);
+}
+
