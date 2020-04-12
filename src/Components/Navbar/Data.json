@@ -3,72 +3,149 @@
         {
             "id":1,
             "hari":"SEN",
-            "tgl":"10"
+            "tgl":"10",
+            "disable":false
         },
         {
             "id":2,
             "hari":"SEL",
-            "tgl":"11"
+            "tgl":"11",
+            "disable":false
         },
         {
             "id":3,
             "hari":"RAB",
-            "tgl":"12"
+            "tgl":"12",
+            "disable":false
         },
         {
             "id":4,
             "hari":"KAM",
-            "tgl":"13"
+            "tgl":"13",
+            "disable":false
         },
         {
             "id":5,
             "hari":"JUM",
-            "tgl":"14"
+            "tgl":"14",
+            "disable":false
         },
         {
             "id":6,
             "hari":"SAB",
-            "tgl":"15"
+            "tgl":"15",
+            "disable":true
         },
         {
             "id":7,
             "hari":"MIN",
-            "tgl":"16"
+            "tgl":"16",
+            "disable":true
         },
         {
             "id":8,
             "hari":"SEN",
-            "tgl":"17"
+            "tgl":"17",
+            "disable":false
         },
         {
             "id":9,
             "hari":"SEL",
-            "tgl":"18"
+            "tgl":"18",
+            "disable":false
         },
         {
             "id":10,
             "hari":"RAB",
-            "tgl":"19"
+            "tgl":"19",
+            "disable":false
         },
         {
             "id":11,
             "hari":"KAM",
-            "tgl":"20"
+            "tgl":"20",
+            "disable":false
         },
         {
             "id":12,
             "hari":"JUM",
-            "tgl":"21"
+            "tgl":"21",
+            "disable":false
         },
         {
             "id":13,
             "hari":"SAB",
-            "tgl":"22"
+            "tgl":"22",
+            "disable":true
         },
         {
             "id":14,
             "hari":"MIN",
-            "tgl":"23"
+            "tgl":"23",
+            "disable":true
         }
+    ],
+    "location":[
+        {
+            "id":1,
+            "title":"Kulina",
+            "alamat":"Jl. Turodong ates 28 senayan kebayoran baru"
+        },
+        {
+            "id":2,
+            "title":"Keraton Yogyakarta",
+            "alamat":" Jl.Rotowijayan Blok No. 1, Panembahan, Kraton, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":3,
+            "title":"Malioboro",
+            "alamat": "Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":4,
+            "title":"Taman Sari",
+            "alamat":" Wisata Taman Sari, Jl. Tamanan, Patehan, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":5,
+            "title":" Monumen Jogja Kembali",
+            "alamat":"Jl. Ringroad Utara, Jongkang, Sariharjo, Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":6,
+            "title":"Candi Prambanan",
+            "alamat":"Jl. Raya Solo – Yogyakarta No.16, Kranggan, Bokoharjo, Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta."
+        },
+        {
+            "id":7,
+            "title":" Candi Ratu Boko",
+            "alamat":" Bokoharjo, Prambanan, Sumberwatu, Sambirejo, Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta."
+        },
+        {
+            "id":8,
+            "title":"Candi Ijo Yogyakarta",
+            "alamat": "Groyokan,nglengkong, Kikis, Sambirejo, Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta."
+        },
+        {
+            "id":9,
+            "title":"Keraton Yogyakarta",
+            "alamat":" Jl.Rotowijayan Blok No. 1, Panembahan, Kraton, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":10,
+            "title":"Malioboro",
+            "alamat": "Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":11,
+            "title":"Taman Sari",
+            "alamat":" Wisata Taman Sari, Jl. Tamanan, Patehan, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+        },
+        {
+            "id":12,
+            "title":" Monumen Jogja Kembali",
+            "alamat":"Jl. Ringroad Utara, Jongkang, Sariharjo, Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta"
+        }
+        
     ]
 }

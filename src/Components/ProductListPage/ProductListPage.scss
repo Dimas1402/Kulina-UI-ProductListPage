@@ -1,5 +1,5 @@
 .container{
-    margin-top: 110px;
+    margin-top: 180px;
     .text-tgl{
         font-size: 16px;
         font-weight:bold;
@@ -7,8 +7,39 @@
     }
 }
 
-@media only screen and(max-width:768px){
-    .container{
-
+.cart-box{
+    position: fixed;
+    bottom: 0;
+    background: #a23530;
+    width: 100%;
+   
+    .text-harga{
+        color: white;
+        font-weight: 700;
+    }
+    .text-ongkos{
+        color: white;
+        margin-top: -10px;
+        font-size: 8px;
+    }
+    .icon-cart{
+        position: relative;
+        float:right;
+        margin-top: -50px;
+        margin-right: 20px;
+    }
+    .icon-next{
+        position: relative;
+        float:right;
+        margin-top: -43px;
+        margin-left: 3px;
+    }
+    .btn-min{
+        background: #f9423a;
+        border: none;
+        width: 30px;
+        border-radius: 3px;
+        color: white;
+        font-weight: 700;
     }
 }

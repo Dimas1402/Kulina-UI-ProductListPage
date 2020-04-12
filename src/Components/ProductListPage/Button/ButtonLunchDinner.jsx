@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Data from './Data.json'
 import './ButtonLunchDinner.scss'
 
-const ButtonLunchDinner = () => {
+const ButtonLunchDinner = ({button}) => {
     const [active, setActive] = useState('')
 
     return (
@@ -10,6 +10,7 @@ const ButtonLunchDinner = () => {
         <div className='row m-1'>
             {Data.btn.map(res => (
             <button
+            key={res.id}
                 onClick={() => setActive(res.id)}
                 className={active === "" ? res.class :(
                 active === res.id
