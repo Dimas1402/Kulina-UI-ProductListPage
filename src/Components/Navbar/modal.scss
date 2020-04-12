@@ -10,6 +10,10 @@
         li{
             border: none;
             font-weight: 700;
+            transition: 0.5s;
+            &:hover{
+                background: #e2e4e4;;
+            }
             img{
                 position: relative;
                 right: 9px;

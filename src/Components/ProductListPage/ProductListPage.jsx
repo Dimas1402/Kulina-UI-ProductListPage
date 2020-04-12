@@ -9,7 +9,7 @@ const HomePage = () => {
     return (
         <>
         <Navbar />
-        <div className='container text-left mb-5'>
+        <div className='container text-left mb-5 '>
             <p className='text-tgl pt-4'>Kamis, 13 Maret 2019</p>
             <ListMenu increment={setItems} items={items} harga={setHarga} />
         </div>

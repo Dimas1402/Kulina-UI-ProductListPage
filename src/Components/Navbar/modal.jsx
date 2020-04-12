@@ -1,8 +1,13 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import './modal.scss'
 import Data from "./Data.json"
 
 const Modal = () => {
+  const [inputSearch,setInputSearch] = useState("")
+
+useEffect(() => {
+  console.log("masuk",inputSearch)
+})
   return (
     <>
       <div
@@ -45,9 +50,10 @@ const Modal = () => {
                   placeholder='Search'
                   aria-label='Search'
                   aria-describedby='basic-addon1'
+                  onChange={(e) => setInputSearch(e.target.value)}
                 />
               </div>
-              <ul className='list-group'>
+              {inputSearch.length > 2 ?  <ul className='list-group'>
                 {Data.location.map(res => (
                     <li key={res.id} className='list-group-item'>
                     <img
@@ -59,7 +65,8 @@ const Modal = () => {
                 <p>{res.alamat}</p>
                   </li>
                 ))}
-              </ul>
+              </ul> : null }
+             
             </div>
             <div className='modal-footer'></div>
           </div>

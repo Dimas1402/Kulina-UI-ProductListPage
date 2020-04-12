@@ -11,7 +11,7 @@ const ListMenu = ({ increment, items, harga }) => {
     return (
         <div className='row d-flex justify-content-center align-items-center row-card-menu'>
         {Data.data.map(res => (
-            <div key={res.id} className='col-sm'>
+            <div key={res.id} className='col-sm d-flex justify-content-center '>
             <div style={{ width: '350px' }} className='card mt-4 card-menu'>
                 <img
                 style={{ width: '350px', height: '300px' }}
