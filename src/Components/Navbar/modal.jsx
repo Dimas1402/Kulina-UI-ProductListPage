@@ -16,7 +16,7 @@ const Modal = () => {
         aria-hidden='true'
       >
         <div className='modal-dialog' role='document'>
-          <div className='modal-content'>
+          <div className={`modal-content ${inputSearch.length > 2 ?null : "modal-content2"}`}>
             <div className='modal-header text-left'>
               <h5 className='modal-title' id='exampleModalLongTitle'>
                 Cek makanan yang tersedia di lokasi mu!
@@ -50,6 +50,7 @@ const Modal = () => {
                   onChange={(e) => setInputSearch(e.target.value)}
                 />
               </div>
+            
               {inputSearch.length > 2 ?  <ul className='list-group'>
                 {Data.location.map(res => (
                     <li key={res.id} className='list-group-item'>
@@ -62,7 +63,7 @@ const Modal = () => {
                 <p>{res.alamat}</p>
                   </li>
                 ))}
-              </ul> : null }
+              </ul> :  <p style={{textAlign:'center',color:'#424749'}} > cari lokasi</p> }
              
             </div>
             <div className='modal-footer'></div>
