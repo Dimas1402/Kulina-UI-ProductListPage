@@ -10,8 +10,8 @@
         transition: 0.5s;
         outline: none;
         &:hover{
-            background: #e2e4e4;
-            color:#6e7679 ;
+            background: #424749;
+            color:white ;
         }
     }
     .btn-active2{
@@ -25,8 +25,8 @@
         transition: 0.5s;
         outline: none;
         &:hover{
-            background: #e2e4e4;
-            color:#6e7679 ;
+            background: #424749;
+            color:white ;
         }
     }
     .btn-disable{
@@ -39,7 +39,8 @@
         transition: 0.5s;
         outline: none;
         &:hover{
-            background: #e2e4e4;
+            background: #424749;
+            color:white;
         }
     }
     .btn-disable2{
@@ -52,7 +53,8 @@
         transition: 0.5s;
         outline: none;
         &:hover{
-            background: #e2e4e4;
+            background: #424749;
+            color:white ;
         }
     }
 }

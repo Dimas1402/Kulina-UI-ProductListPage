@@ -1,13 +1,10 @@
-import React,{useState, useEffect} from 'react'
+import React,{useState} from 'react'
 import './modal.scss'
 import Data from "./Data.json"
 
 const Modal = () => {
   const [inputSearch,setInputSearch] = useState("")
 
-useEffect(() => {
-  console.log("masuk",inputSearch)
-})
   return (
     <>
       <div
